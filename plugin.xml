@@ -6,7 +6,7 @@
   <name>EchoPlugin</name>  
   <description>This plugin just echoes uppercased string.</description>  
   
-  <js-module src="echo-plugin.js">  
+  <js-module src="plugin.js">  
     <clobbers target="window.EchoPlugin" />  
   </js-module>  
   
