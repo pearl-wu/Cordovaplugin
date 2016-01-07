@@ -17,7 +17,7 @@
         <param name="ios-package" value="EchoPlugin" />  
       </feature>  
     </config-file>  
-    <source-file src="src/ios/EchoPlugin.swift" />  
+    <source-file src="src/ios/cordova.swift" />  
   </platform>  
   
 </plugin>  
