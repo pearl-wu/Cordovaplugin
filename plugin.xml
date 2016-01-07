@@ -6,7 +6,7 @@
   <name>EchoPlugin</name>  
   <description>This plugin just echoes uppercased string.</description>  
   
-  <js-module src="plugin.js">  
+  <js-module src="echo-plugin.js">  
     <clobbers target="window.EchoPlugin" />  
   </js-module>  
   
@@ -17,7 +17,7 @@
         <param name="ios-package" value="EchoPlugin" />  
       </feature>  
     </config-file>  
-    <source-file src="src/ios/cordova.swift" />  
-  </platform>  
+    <source-file src="src/ios/EchoPlugin.swift" />  
+  </platform> 
   
 </plugin>  
